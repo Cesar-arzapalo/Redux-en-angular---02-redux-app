@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  contador: number;
   title = 'redux-app';
+
+  constructor(){
+    this.contador = 10;
+  }
 }

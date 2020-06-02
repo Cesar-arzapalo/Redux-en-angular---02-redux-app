@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "redux-app"
+    }
+  },
+  "defaultProject": "redux-app",
+  "cli": {
+    "analytics": "7cef2f4f-7a1e-4937-b58f-ab3fcc0fdae4"
+  }
 }
