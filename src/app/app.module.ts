@@ -20,11 +20,11 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
+    StoreModule.forRoot({contador: contadorReducer}),
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       logOnly: environment.production, // Restrict extension to log-only mode
-    }),
-    StoreModule.forRoot({contador: contadorReducer})
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
